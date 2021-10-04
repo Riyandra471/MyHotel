@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Hotel View</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">Info</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="subtitle_detail">Coming Soon Bro Sis</string>
+
+    // nama-nama hotel
+    <string-array name="hotels_titles">
+        <item>Hotel Harper</item>
+        <item>Hotel Prime Plaza</item>
+        <item>Hotel Khalista</item>
+        <item>Hotel Permata</item>
+        <item>Hotel Intan</item>
+        <item>Hotel Grand Situ Buleud</item>
+        <item>Hotel Sederhana</item>
+        <item>Hotel Abah</item>
+        <item>Hotel Grand Permata</item>
+        <item>Hotel Ciwangi</item>
+    </string-array>
+
+    //info hotel
+    <string-array name="hotels_info">
+        <item>Info Hotel Harper Purwakarta</item>
+        <item>Info Hotel Prime Plaza Purwakarta</item>
+        <item>Info Hotel Khalista Purwakarta</item>
+        <item>Info Hotel Permata news Purwakarta</item>
+        <item>Info Hotel Intan Purwakarta</item>
+        <item>Info Hotel Grand Situ Buleud Purwakarta</item>
+        <item>Info Hotel Sederhana Purwakarta</item>
+        <item>Info Hotel Abah Purwakarta</item>
+        <item>Info Hotel Grand Permata Purwakarta</item>
+        <item>Info Hotel Ciwangi Purwakarta</item>
+    </string-array>
+
+    //gambar hotel
+    <array name="hotels_images">
+        <item>@drawable/h1_harper</item>
+        <item>@drawable/h2_primeplaza</item>
+        <item>@drawable/h3_khalista</item>
+        <item>@drawable/h4_permata</item>
+        <item>@drawable/h5_intan</item>
+        <item>@drawable/h6_grandsitu</item>
+        <item>@drawable/h7_sederhana</item>
+        <item>@drawable/h9_abah</item>
+        <item>@drawable/h10_grandpermata</item>
+        <item>@drawable/h11_ciwangi</item>
+    </array>
+</resources>

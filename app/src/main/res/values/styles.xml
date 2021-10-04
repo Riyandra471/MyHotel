@@ -1,0 +1,15 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="HotelsDetailText"
+        parent="TextAppearance.AppCompat.Subhead"/>
+    <style name="HotelsTitle"
+        parent="TextAppearance.AppCompat.Headline"/>
+    <style name="HotelsDetailTitle"
+        parent="TextAppearance.AppCompat.Headline"/>
+</resources>
