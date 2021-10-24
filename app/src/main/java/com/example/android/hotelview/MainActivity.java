@@ -1,11 +1,16 @@
 package com.example.android.hotelview;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -34,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     private void initializeData() {
         String[] hotelsList = getResources()
                 .getStringArray(R.array.hotels_titles);
@@ -54,5 +60,37 @@ public class MainActivity extends AppCompatActivity {
 
     public void resetSports(View view) {
         initializeData();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        //getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId()==R.id.about){
+            startActivity(new Intent(this, AboutActivity.class));
+        } else if (item.getItemId() == R.id.setting) {
+            startActivity(new Intent(this, SettingActivity.class));
+        } else if (item.getItemId() == R.id.help) {
+            startActivity(new Intent(this, HelpActivity.class));
+        } else if (item.getItemId() == R.id.action_favorites) {
+            displayToast(getString(R.string.action_favorites_message));
+            return true;
+        } else if (item.getItemId() == R.id.action_contact) {
+            displayToast(getString(R.string.action_contact_message));
+            return true;
+        }
+
+        return true;
+    }
+
+    public void displayToast(String message) {
+        Toast.makeText(getApplicationContext(), message,
+                Toast.LENGTH_SHORT).show();
     }
 }

@@ -1,9 +1,20 @@
 <resources>
-    <string name="app_name">Hotel View</string>
+    <string name="app_name">Hotel</string>
     <string name="title_placeholder">Title</string>
     <string name="news_placeholder">Info</string>
     <string name="sports_info_placeholder">Here is some news</string>
     <string name="subtitle_detail">Coming Soon Bro Sis</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="text_about">Tentang Hotel</string>
+    <string name="text_help">Bantuan</string>
+    <string name="text_setting">Pengaturan</string>
 
     // nama-nama hotel
     <string-array name="hotels_titles">
