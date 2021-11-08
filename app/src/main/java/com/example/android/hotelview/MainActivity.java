@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.action_contact) {
             displayToast(getString(R.string.action_contact_message));
             return true;
-        }
+        } //finish
 
         return true;
     }
