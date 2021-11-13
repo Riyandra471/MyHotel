@@ -20,9 +20,10 @@
         android:id="@+id/setting"
         android:title="Setting"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/help"
-        android:title="Help"
-        app:showAsAction="never"/>
+
+<!--    <item-->
+<!--        android:id="@+id/help"-->
+<!--        android:title="Help"-->
+<!--        app:showAsAction="never"/>-->
 
 </menu>

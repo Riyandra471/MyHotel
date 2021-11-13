@@ -12,7 +12,8 @@
     <string name="action_status_message">You selected Status.</string>
     <string name="action_favorites_message">You selected Favorites.</string>
     <string name="action_contact_message">You selected Contact.</string>
-    <string name="text_about">Tentang Hotel</string>
+    <string name="text_about">LOYO adalah salah satu aplikasi penyedia layanan daftar hotel secara online.
+        Biasanya, hotel yang tersedia adalah yang sudah terafiliasi dengan aplikasi ini.</string>
     <string name="text_help">Bantuan</string>
     <string name="text_setting">Pengaturan</string>
 
