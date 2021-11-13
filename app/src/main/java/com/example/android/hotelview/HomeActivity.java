@@ -15,7 +15,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
     //lokasi splash screen berada
-        new Handler().postDelayed(new Runable() {
+
+        new Handler().postDelayed(new Runable () {
             @Override
             public void run() {
                 Intent splash = new Intent(HomeActivity.this, MainActivity.class);
