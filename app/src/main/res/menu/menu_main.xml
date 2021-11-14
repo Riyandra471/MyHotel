@@ -8,9 +8,9 @@
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_contact"
-        android:icon="@drawable/ic_contact"
+        android:icon="@drawable/ic_search"
         android:orderInCategory="100"
-        android:title="@string/action_contact"
+        android:title="@string/action_search"
         app:showAsAction="always" />
     <item
         android:id="@+id/about"
@@ -21,9 +21,5 @@
         android:title="Setting"
         app:showAsAction="never" />
 
-<!--    <item-->
-<!--        android:id="@+id/help"-->
-<!--        android:title="Help"-->
-<!--        app:showAsAction="never"/>-->
 
 </menu>

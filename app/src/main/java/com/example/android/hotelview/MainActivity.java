@@ -76,13 +76,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, AboutActivity.class));
         } else if (item.getItemId() == R.id.setting) {
             startActivity(new Intent(this, SettingActivity.class));
-//        } else if (item.getItemId() == R.id.help) {
-//            startActivity(new Intent(this, HelpActivity.class));
         } else if (item.getItemId() == R.id.action_favorites) {
             displayToast(getString(R.string.action_favorites_message));
             return true;
         } else if (item.getItemId() == R.id.action_contact) {
-            displayToast(getString(R.string.action_contact_message));
+            displayToast(getString(R.string.action_search_message));
             return true;
         } //finish
 
