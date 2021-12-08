@@ -52,7 +52,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 ContentValues values = new ContentValues();
 
-
+// apabila passowrd salah maka begini jadinya
                 if (!password.equals(conPassword)){
                     Toast.makeText(RegisterActivity.this, "Password not match", Toast.LENGTH_SHORT).show();
                 }else if (password.equals("") || username.equals("")){
