@@ -22,6 +22,8 @@ public class DBHelper extends SQLiteOpenHelper {
         db = getWritableDatabase();
     }
 
+    //DBHelper
+
     @Override
     public void onCreate(SQLiteDatabase db) {
         String query = "CREATE TABLE " + table_name + "(" + row_id + " INTEGER PRIMARY KEY AUTOINCREMENT,"
