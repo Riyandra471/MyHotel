@@ -18,7 +18,7 @@ public class RegisterActivity extends AppCompatActivity {
     EditText TxUsername, TxPassword, TxConPassword;
     Button BtnRegister;
     DBHelper dbHelper;
-
+//baris pertama
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
