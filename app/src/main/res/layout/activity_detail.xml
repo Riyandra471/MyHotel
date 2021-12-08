@@ -22,6 +22,8 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/hotelsImageDetail"
             android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:text="@string/title_placeholder"
             android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
@@ -38,10 +40,10 @@
         <TextView
             android:id="@+id/subTitleDetail"
             style="@style/HotelsDetailText"
-            android:text="@string/subtitle_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/newsTitleDetail"
-            android:padding="16dp" />
+            android:padding="16dp"
+            android:text="@string/subtitle_detail" />
     </RelativeLayout>
 </ScrollView>

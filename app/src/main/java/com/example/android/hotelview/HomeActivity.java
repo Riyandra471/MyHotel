@@ -14,12 +14,12 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-    //lokasi splash screen berada
+        //lokasi splash screen berada
 
         new Handler().postDelayed(new Runable () {
             @Override
             public void run() {
-                Intent splash = new Intent(HomeActivity.this, MainActivity.class);
+                Intent splash = new Intent(HomeActivity.this, LoginActivity.class);
                 startActivity(splash);
                 finish();
             }

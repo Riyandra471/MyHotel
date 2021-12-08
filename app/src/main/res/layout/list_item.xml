@@ -12,7 +12,9 @@
             android:id="@+id/hotelsImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:adjustViewBounds="true" />
+            android:adjustViewBounds="true"
+
+            />
 
         <TextView
             android:id="@+id/title"
@@ -21,6 +23,8 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/hotelsImage"
             android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:text="@string/title_placeholder"
             android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
